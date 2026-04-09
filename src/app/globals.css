@@ -1,26 +1,92 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import "animate.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+/* ----------------------------------------------------------------------------------------
+* Author        : Awaiken
+* Template Name : Primecare - Dentist & Dental Clinic HTML Template
+* File          : CSS File
+* Version       : 1.0
+* ---------------------------------------------------------------------------------------- */
+/* INDEX
+----------------------------------------------------------------------------------------
+01. Global Variables
+02. General css
+03. Header css
+04. Hero css
+05. About Us css
+06. Our Services css
+07. Our Expertise css
+08. Why Choose Us css
+09. How It Work css
+10. Our Testiminial css
+11. Our Transformation css
+12. Our FAQs css
+13. Our Blog Post css
+14. Book Appointment css
+15. Footer css
+16. About us Page css
+17. Services Page css
+18. Service Single css
+19. Blog Archive css
+20. Blog Single css
+21. Page Doctor css
+22. Doctor Single css
+23. Gallery Page css
+24. Testimonials Page css
+25. Page FAQs css
+26. Contact us Page css
+27. Page Book Appointment css
+28. 404 Page css
+29. responsive css
+-------------------------------------------------------------------------------------- */
+
+/************************************/
+/*** 	 01. Global Variables	  ***/
+/************************************/	
+
+:root{
+	--primary-color			: #0B0B38;
+	--secondary-color		: #F8F8FF;
+	--text-color			: #555574;
+	--accent-color			: #5E5EEE;
+	--white-color			: #FFFFFF;
+	--divider-color			: #F0F0FF;
+	--dark-divider-color	: #FFFFFF26;
+	--error-color			: rgb(230, 87, 87);
+	--default-font			: "Plus Jakarta Sans", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/************************************/
+/*** 	   02. General css		  ***/
+/************************************/
+.hero{
+	background:  url('/hero-bg.svg'), linear-gradient(90deg, #2C2C66 -10.82%, #0B0B38 56.59%) no-repeat;
+    background-position: left center;
+    background-size: contain;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.expertise{
+	background:  url('/expertise-image-bg.svg');
+    background-position: center;
+    background-size: fill;
+	background-repeat: no-repeat;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.testimonial{
+	background:  url('/testimonial-bg.png');
+    background-position: center;
+    background-size: cover;
+	background-repeat:repeat-y;
+}
+
+.footer{
+	background: url('/images/hero-bg.svg'), linear-gradient(90deg, #2C2C66 -10.82%, var(--primary-color) 56.59%);
+	background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
 }
