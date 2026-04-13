@@ -88,7 +88,7 @@ const services = [
     id: 1,
     icon: "/icon-service-1.svg",
     title: "General Dentistry",
-    description: "We are excited to meet you and provide the best dental care for your family.",
+    description: "We are excited to meet you and provide the best dental care for your family",
     image: "/service-img-1.jpg",
   },
   {
