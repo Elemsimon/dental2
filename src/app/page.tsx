@@ -343,7 +343,7 @@ export default function Page() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          company: "Trident Dental Services",
+          company: "dentistnearmeng",
           name: form.name,
           email: form.email,
           phone: form.phone,
